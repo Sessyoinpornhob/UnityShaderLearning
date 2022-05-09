@@ -7,8 +7,8 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: HalfLambert
-  m_Shader: {fileID: 4800000, guid: a85372636c8c89d4da4276e9c7ba48a5, type: 3}
+  m_Name: Cartoon
+  m_Shader: {fileID: 4800000, guid: 633cf6af5b42dd84594fb91fc0fa6b54, type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
@@ -19,23 +19,19 @@ Material:
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
-    - _00:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
     - _SampleTexture:
-        m_Texture: {fileID: 2800000, guid: c0f0ebee4b09c554ea2f6a6d0669a97e, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _node_8155:
-        m_Texture: {fileID: 2800000, guid: c0f0ebee4b09c554ea2f6a6d0669a97e, type: 3}
+        m_Texture: {fileID: 2800000, guid: d382458b4c572f141a9aabf23eca8c5d, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
-    - _: 0.5
     - _0: 0.2
+    - _1: 2
+    - _Cutoff: 0.5
     - _GrayRate: 0.5
-    - _node_1132: 0.2
-    - _node_3032: 0.5
-    m_Colors: []
+    - _node_2064: 10
+    - _node_2103: -1000
+    - _node_398: 0.03
+    m_Colors:
+    - _OutlineColor: {r: 0.3113208, g: 0.1629524, b: 0.1186543, a: 1}
+    - _node_3500: {r: 0.3396226, g: 0.1701751, b: 0.151869, a: 1}
   m_BuildTextureStacks: []
