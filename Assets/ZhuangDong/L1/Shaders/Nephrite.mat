@@ -39,15 +39,22 @@ Material:
         m_Texture: {fileID: 2800000, guid: da2a2d768b3b3904bad6dc54c4c5f2ac, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _texx:
+        m_Texture: {fileID: 2800000, guid: da2a2d768b3b3904bad6dc54c4c5f2ac, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     m_Floats:
+    - _Frate: 1.5
     - _black: 0
     - _node_5942: 0.995
     - _node_5942_copy: 1
     - _node_5942_copy_copy: 0
     - _node_9714: 0.5
+    - _noneed: 0.5
     - _rate: 0.995
     - _white: 1
     m_Colors:
-    - _Offest1: {r: -0.05, g: 0, b: 0, a: 0}
-    - _Offest2: {r: 0.06, g: 0, b: 0, a: 0}
+    - _Fcolor: {r: 0.450801, g: 0.5943396, b: 0.5280563, a: 1}
+    - _Offest1: {r: -0.05, g: -0.23, b: 0, a: 0}
+    - _Offest2: {r: 0.08, g: -0.21, b: 0, a: 0}
   m_BuildTextureStacks: []
