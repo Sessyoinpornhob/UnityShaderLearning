@@ -27,6 +27,10 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _SampleTexture:
+        m_Texture: {fileID: 2800000, guid: d382458b4c572f141a9aabf23eca8c5d, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _Tex:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
@@ -44,8 +48,11 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
+    - _0: 0.2
     - _Frate: 1.5
+    - _GrayRate: 0.5
     - _black: 0
+    - _node_398: 0.01
     - _node_5942: 0.995
     - _node_5942_copy: 1
     - _node_5942_copy_copy: 0
@@ -57,4 +64,5 @@ Material:
     - _Fcolor: {r: 0.450801, g: 0.5943396, b: 0.5280563, a: 1}
     - _Offest1: {r: -0.05, g: -0.23, b: 0, a: 0}
     - _Offest2: {r: 0.08, g: -0.21, b: 0, a: 0}
+    - _node_3500: {r: 0.3396226, g: 0.1701751, b: 0.151869, a: 1}
   m_BuildTextureStacks: []

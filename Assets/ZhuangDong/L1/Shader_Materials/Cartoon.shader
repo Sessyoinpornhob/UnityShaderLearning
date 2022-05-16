@@ -1,19 +1,66 @@
 // Shader created with Shader Forge v1.40 
 // Shader Forge (c) Freya Holmer - http://www.acegikmo.com/shaderforge/
 // Note: Manually altering this data may prevent you from opening it in Shader Forge
-/*SF_DATA;ver:1.40;sub:START;pass:START;ps:flbk:,iptp:0,cusa:False,bamd:0,cgin:,cpap:True,lico:1,lgpr:1,limd:1,spmd:1,trmd:0,grmd:0,uamb:True,mssp:True,bkdf:False,hqlp:False,rprd:False,enco:False,rmgx:True,imps:True,rpth:0,vtps:0,hqsc:True,nrmq:1,nrsp:0,vomd:0,spxs:False,tesm:0,olmd:1,culm:0,bsrc:0,bdst:1,dpts:2,wrdp:True,dith:0,atcv:False,rfrpo:True,rfrpn:Refraction,coma:15,ufog:True,aust:True,igpj:False,qofs:0,qpre:1,rntp:1,fgom:False,fgoc:False,fgod:False,fgor:False,fgmd:0,fgcr:0.5,fgcg:0.5,fgcb:0.5,fgca:1,fgde:0.01,fgrn:0,fgrf:300,stcl:False,atwp:False,stva:128,stmr:255,stmw:255,stcp:6,stps:0,stfa:0,stfz:0,ofsf:0,ofsu:0,f2p0:False,fnsp:False,fnfb:False,fsmp:False;n:type:ShaderForge.SFN_Final,id:8253,x:32719,y:32712,varname:node_8253,prsc:2|emission-8155-RGB;n:type:ShaderForge.SFN_LightVector,id:2414,x:31439,y:32796,varname:node_2414,prsc:2;n:type:ShaderForge.SFN_NormalVector,id:3397,x:31427,y:32642,prsc:2,pt:False;n:type:ShaderForge.SFN_Dot,id:345,x:31638,y:32664,varname:node_345,prsc:2,dt:0|A-3397-OUT,B-2414-OUT;n:type:ShaderForge.SFN_Multiply,id:2337,x:31897,y:32694,varname:node_2337,prsc:2|A-345-OUT,B-3032-OUT;n:type:ShaderForge.SFN_ValueProperty,id:3032,x:31688,y:32857,ptovrint:False,ptlb:GrayRate,ptin:_GrayRate,varname:node_3032,prsc:2,glob:False,taghide:False,taghdr:False,tagprd:False,tagnsco:False,tagnrm:False,v1:0.5;n:type:ShaderForge.SFN_Add,id:1070,x:32070,y:32735,varname:node_1070,prsc:2|A-2337-OUT,B-3032-OUT;n:type:ShaderForge.SFN_Append,id:260,x:32249,y:32797,varname:node_260,prsc:2|A-1070-OUT,B-1132-OUT;n:type:ShaderForge.SFN_ValueProperty,id:1132,x:32058,y:32909,ptovrint:False,ptlb:0,ptin:_0,varname:node_1132,prsc:2,glob:False,taghide:False,taghdr:False,tagprd:False,tagnsco:False,tagnrm:False,v1:0.2;n:type:ShaderForge.SFN_Tex2d,id:8155,x:32476,y:32797,ptovrint:False,ptlb:SampleTexture,ptin:_SampleTexture,varname:node_8155,prsc:2,glob:False,taghide:False,taghdr:False,tagprd:False,tagnsco:False,tagnrm:False,tex:c0f0ebee4b09c554ea2f6a6d0669a97e,ntxv:3,isnm:False|UVIN-260-OUT;proporder:3032-8155-1132;pass:END;sub:END;*/
+/*SF_DATA;ver:1.40;sub:START;pass:START;ps:flbk:,iptp:0,cusa:False,bamd:0,cgin:,cpap:True,lico:1,lgpr:1,limd:1,spmd:1,trmd:0,grmd:0,uamb:True,mssp:True,bkdf:False,hqlp:False,rprd:False,enco:False,rmgx:True,imps:True,rpth:0,vtps:0,hqsc:True,nrmq:1,nrsp:0,vomd:0,spxs:False,tesm:0,olmd:1,culm:0,bsrc:0,bdst:1,dpts:2,wrdp:True,dith:0,atcv:False,rfrpo:True,rfrpn:Refraction,coma:15,ufog:True,aust:True,igpj:False,qofs:0,qpre:1,rntp:1,fgom:False,fgoc:False,fgod:False,fgor:False,fgmd:0,fgcr:0.5,fgcg:0.5,fgcb:0.5,fgca:1,fgde:0.01,fgrn:0,fgrf:300,stcl:False,atwp:False,stva:128,stmr:255,stmw:255,stcp:6,stps:0,stfa:0,stfz:0,ofsf:0,ofsu:0,f2p0:False,fnsp:False,fnfb:False,fsmp:False;n:type:ShaderForge.SFN_Final,id:37,x:33637,y:32083,varname:node_37,prsc:2|emission-7636-RGB,olwid-398-OUT,olcol-3500-RGB;n:type:ShaderForge.SFN_LightVector,id:7870,x:32376,y:32182,varname:node_7870,prsc:2;n:type:ShaderForge.SFN_NormalVector,id:960,x:32364,y:32028,prsc:2,pt:False;n:type:ShaderForge.SFN_Dot,id:3019,x:32575,y:32050,varname:node_3019,prsc:2,dt:0|A-960-OUT,B-7870-OUT;n:type:ShaderForge.SFN_Multiply,id:5296,x:32834,y:32080,varname:node_5296,prsc:2|A-3019-OUT,B-54-OUT;n:type:ShaderForge.SFN_ValueProperty,id:54,x:32625,y:32243,ptovrint:False,ptlb:GrayRate,ptin:_GrayRate,varname:node_3032,prsc:2,glob:False,taghide:False,taghdr:False,tagprd:False,tagnsco:False,tagnrm:False,v1:0.5;n:type:ShaderForge.SFN_Add,id:3353,x:33007,y:32121,varname:node_3353,prsc:2|A-5296-OUT,B-54-OUT;n:type:ShaderForge.SFN_Append,id:9871,x:33186,y:32183,varname:node_9871,prsc:2|A-3353-OUT,B-106-OUT;n:type:ShaderForge.SFN_ValueProperty,id:106,x:32995,y:32295,ptovrint:False,ptlb:0,ptin:_0,varname:node_1132,prsc:2,glob:False,taghide:False,taghdr:False,tagprd:False,tagnsco:False,tagnrm:False,v1:0.2;n:type:ShaderForge.SFN_Tex2d,id:7636,x:33413,y:32183,ptovrint:False,ptlb:SampleTexture,ptin:_SampleTexture,varname:node_8155,prsc:2,glob:False,taghide:False,taghdr:False,tagprd:False,tagnsco:False,tagnrm:False,tex:d382458b4c572f141a9aabf23eca8c5d,ntxv:0,isnm:False|UVIN-9871-OUT;n:type:ShaderForge.SFN_ValueProperty,id:398,x:33340,y:32374,ptovrint:False,ptlb:node_398,ptin:_node_398,varname:node_398,prsc:2,glob:False,taghide:False,taghdr:False,tagprd:False,tagnsco:False,tagnrm:False,v1:0.01;n:type:ShaderForge.SFN_Color,id:3500,x:33340,y:32456,ptovrint:False,ptlb:node_3500,ptin:_node_3500,varname:node_3500,prsc:2,glob:False,taghide:False,taghdr:False,tagprd:False,tagnsco:False,tagnrm:False,c1:0.3396226,c2:0.1701751,c3:0.151869,c4:1;proporder:54-106-7636-398-3500;pass:END;sub:END;*/
 
-Shader "ZD/HalfLambert" {
+Shader "ZD/L1/Cartoon" {
     Properties {
         _GrayRate ("GrayRate", Float ) = 0.5
-        _SampleTexture ("SampleTexture", 2D) = "bump" {}
         _0 ("0", Float ) = 0.2
+        _SampleTexture ("SampleTexture", 2D) = "white" {}
+        _node_398 ("node_398", Float ) = 0.01
+        _node_3500 ("node_3500", Color) = (0.3396226,0.1701751,0.151869,1)
     }
     SubShader {
         Tags {
             "RenderType"="Opaque"
         }
         LOD 100
+        Pass {
+            Name "Outline"
+            Tags {
+            }
+            Cull Front
+            
+            CGPROGRAM
+            #pragma vertex vert
+            #pragma fragment frag
+            #pragma multi_compile_instancing
+            #include "UnityCG.cginc"
+            #pragma fragmentoption ARB_precision_hint_fastest
+            #pragma multi_compile_shadowcaster
+            #pragma multi_compile_fog
+            #pragma target 3.0
+            UNITY_INSTANCING_BUFFER_START( Props )
+                UNITY_DEFINE_INSTANCED_PROP( float, _node_398)
+                UNITY_DEFINE_INSTANCED_PROP( float4, _node_3500)
+            UNITY_INSTANCING_BUFFER_END( Props )
+            struct VertexInput {
+                UNITY_VERTEX_INPUT_INSTANCE_ID
+                float4 vertex : POSITION;
+                float3 normal : NORMAL;
+            };
+            struct VertexOutput {
+                float4 pos : SV_POSITION;
+                UNITY_VERTEX_INPUT_INSTANCE_ID
+                UNITY_FOG_COORDS(0)
+            };
+            VertexOutput vert (VertexInput v) {
+                VertexOutput o = (VertexOutput)0;
+                UNITY_SETUP_INSTANCE_ID( v );
+                UNITY_TRANSFER_INSTANCE_ID( v, o );
+                float _node_398_var = UNITY_ACCESS_INSTANCED_PROP( Props, _node_398 );
+                o.pos = UnityObjectToClipPos( float4(v.vertex.xyz + v.normal*_node_398_var,1) );
+                UNITY_TRANSFER_FOG(o,o.pos);
+                return o;
+            }
+            float4 frag(VertexOutput i) : COLOR {
+                UNITY_SETUP_INSTANCE_ID( i );
+                float4 _node_3500_var = UNITY_ACCESS_INSTANCED_PROP( Props, _node_3500 );
+                return fixed4(_node_3500_var.rgb,0);
+            }
+            ENDCG
+        }
         Pass {
             Name "FORWARD"
             Tags {
@@ -68,8 +115,8 @@ Shader "ZD/HalfLambert" {
 ////// Emissive:
                 float _GrayRate_var = UNITY_ACCESS_INSTANCED_PROP( Props, _GrayRate );
                 float _0_var = UNITY_ACCESS_INSTANCED_PROP( Props, _0 );
-                float2 node_260 = float2(((dot(i.normalDir,lightDirection)*_GrayRate_var)+_GrayRate_var),_0_var);
-                float4 _SampleTexture_var = tex2D(_SampleTexture,TRANSFORM_TEX(node_260, _SampleTexture));
+                float2 node_9871 = float2(((dot(i.normalDir,lightDirection)*_GrayRate_var)+_GrayRate_var),_0_var);
+                float4 _SampleTexture_var = tex2D(_SampleTexture,TRANSFORM_TEX(node_9871, _SampleTexture));
                 float3 emissive = _SampleTexture_var.rgb;
                 float3 finalColor = emissive;
                 fixed4 finalRGBA = fixed4(finalColor,1);
