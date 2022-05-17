@@ -26,10 +26,14 @@ Shader "ZD/L1/Lambert" {
             #pragma multi_compile_fwdbase_fullshadows
             #pragma multi_compile_fog
             #pragma target 3.0
+
+            //输入结构
             struct VertexInput {
-                float4 vertex : POSITION;
-                float3 normal : NORMAL;
+                float4 vertex : POSITION;  //输入模型顶点信息
+                float3 normal : NORMAL;    //输入模型法线信息
             };
+
+            //输出结构
             struct VertexOutput {
                 float4 pos : SV_POSITION;
                 float4 posWorld : TEXCOORD0;
@@ -37,6 +41,8 @@ Shader "ZD/L1/Lambert" {
                 LIGHTING_COORDS(2,3)
                 UNITY_FOG_COORDS(4)
             };
+
+            //输入结构 > 顶点着色器 > 输出结构
             VertexOutput vert (VertexInput v) {
                 VertexOutput o = (VertexOutput)0;
                 o.normalDir = UnityObjectToWorldNormal(v.normal);
@@ -46,12 +52,13 @@ Shader "ZD/L1/Lambert" {
                 TRANSFER_VERTEX_TO_FRAGMENT(o)
                 return o;
             }
+
+            //输出结构 > 片元着色器 > 像素
             float4 frag(VertexOutput i) : COLOR {
                 i.normalDir = normalize(i.normalDir);
                 float3 normalDirection = i.normalDir;
                 float3 lightDirection = normalize(_WorldSpaceLightPos0.xyz);
-////// Lighting:
-////// Emissive:
+
                 float node_2711 = saturate(dot(i.normalDir,lightDirection));
                 float3 emissive = float3(node_2711,node_2711,node_2711);
                 float3 finalColor = emissive;

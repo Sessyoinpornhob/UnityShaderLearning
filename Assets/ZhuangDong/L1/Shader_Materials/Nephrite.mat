@@ -58,11 +58,11 @@ Material:
     - _node_5942_copy_copy: 0
     - _node_9714: 0.5
     - _noneed: 0.5
-    - _rate: 0.995
-    - _white: 1
+    - _rate: 0.9977
+    - _white: 0.8
     m_Colors:
     - _Fcolor: {r: 0.450801, g: 0.5943396, b: 0.5280563, a: 1}
-    - _Offest1: {r: -0.05, g: -0.23, b: 0, a: 0}
-    - _Offest2: {r: 0.08, g: -0.21, b: 0, a: 0}
+    - _Offest1: {r: -0.05, g: -0.17, b: 0, a: 0}
+    - _Offest2: {r: 0.04, g: -0.14, b: 0, a: 0}
     - _node_3500: {r: 0.3396226, g: 0.1701751, b: 0.151869, a: 1}
   m_BuildTextureStacks: []
