@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Rust
+  m_Shader: {fileID: 4800000, guid: 2e8c70bb2059786438e631541d8a4e64, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _NoiseTex:
+        m_Texture: {fileID: 2800000, guid: 28c7aad1372ff114b90d330f8a2dd938, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _RustRange: 0.499
+    - _RustyRate: 1.47
+    - _SpecularPow: 32.6
+    - _SpecularPow1: 39.8
+    - _SpecularPow2: 200
+    m_Colors:
+    - _IronColor: {r: 0.5566038, g: 0.5566038, b: 0.5566038, a: 1}
+    - _RustColor: {r: 0.754717, g: 0.4717376, b: 0.031327844, a: 1}
+  m_BuildTextureStacks: []

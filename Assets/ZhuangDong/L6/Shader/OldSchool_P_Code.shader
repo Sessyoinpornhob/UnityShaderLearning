@@ -1,7 +1,8 @@
-Shader "ZD/L5/OldSchool" {
+Shader "ZD/L6/OldSchool_Phong" {
 //shader路径名
     Properties {
         _MainCol("颜色", color) = (1.0, 1.0, 1.0, 1.0)
+        //_MainLightCol("高光颜色", color) = (1.0, 1.0, 1.0, 1.0)
         _SpecularPow("高光次幂", range(1, 100)) = 30
     }
     //材质面板参数
@@ -27,6 +28,7 @@ Shader "ZD/L5/OldSchool" {
             //声明变量
             uniform float3 _MainCol;
             uniform float _SpecularPow;
+            //uniform float _MainLightCol;
             //声明变量
             
             //输入结构：输入到顶点着色器中的结构
@@ -57,14 +59,14 @@ Shader "ZD/L5/OldSchool" {
                 float3 nDir = i.nDirWS;                                       // 获取世界坐标下法线方向
                 float3 lDir = normalize(lerp(_WorldSpaceLightPos0.xyz, _WorldSpaceLightPos0.xyz - i.posWS.xyz, _WorldSpaceLightPos0.w));            // 归一化光方向
                 float3 vDir = normalize(_WorldSpaceCameraPos.xyz - i.posWS);  // 获取摄像机方向（不会写的看forge
-                float3 hDir = normalize(lDir + vDir);                         // 求半角方向
+                float3 relDir = normalize(reflect(-lDir, i.nDirWS));
                 //准备中间数据 > 点乘结果
                 float ndotl = dot(nDir, lDir);      //用于漫反射 Lambert光照模型
-                float ndoth = dot(nDir, hDir);      //用于镜面反射 Blinn-Phong光照模型
+                float vdotl = dot(vDir, relDir);    //用于镜面反射 Phong光照模型
                 //光照模型
                 float lambert = max(0.0, ndotl);
-                float blinnPhong = pow(max(0.0, ndoth), _SpecularPow );
-                float3 finalRGB = _MainCol * lambert + blinnPhong;
+                float Phong = pow(max(0.0, vdotl), _SpecularPow );
+                float3 finalRGB = _MainCol * lambert + Phong;
                 //返回结果
                 return float4(finalRGB, 1.0);
             }
