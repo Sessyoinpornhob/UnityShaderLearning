@@ -24,10 +24,10 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
-    - _RustRange: 0.499
+    - _RustRange: 0.35
     - _RustyRate: 1.47
     - _SpecularPow: 32.6
-    - _SpecularPow1: 39.8
+    - _SpecularPow1: 51
     - _SpecularPow2: 200
     m_Colors:
     - _IronColor: {r: 0.5566038, g: 0.5566038, b: 0.5566038, a: 1}

@@ -28,5 +28,5 @@ Material:
     - _lStrengh: 5.79
     m_Colors:
     - _lColor: {r: 0.754717, g: 0.41580632, b: 0.41580632, a: 1}
-    - _lDir: {r: 17.91, g: 4.43, b: -4.05, a: 0}
+    - _lDir: {r: 3.22, g: 8.65, b: -7.1, a: 0}
   m_BuildTextureStacks: []

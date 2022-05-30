@@ -58,7 +58,7 @@ Material:
     - _node_5942_copy_copy: 0
     - _node_9714: 0.5
     - _noneed: 0.5
-    - _rate: 0.9977
+    - _rate: 0.9981
     - _white: 0.8
     m_Colors:
     - _Fcolor: {r: 0.450801, g: 0.5943396, b: 0.5280563, a: 1}
