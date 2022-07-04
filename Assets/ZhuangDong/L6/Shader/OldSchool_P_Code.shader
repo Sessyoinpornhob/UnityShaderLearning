@@ -1,4 +1,4 @@
-Shader "ZD/L6/OldSchool_Phong" {
+Shader "ZD/L06/OldSchool_Phong" {
 //shader路径名
     Properties {
         _MainCol("颜色", color) = (1.0, 1.0, 1.0, 1.0)

@@ -1,4 +1,4 @@
-Shader "ZD/L3/SampleShader_2" {
+Shader "ZD/L03/SampleShader_2" {
 //shader路径名
     Properties {
     }

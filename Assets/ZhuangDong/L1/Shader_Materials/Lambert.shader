@@ -3,7 +3,7 @@
 // Note: Manually altering this data may prevent you from opening it in Shader Forge
 /*SF_DATA;ver:1.40;sub:START;pass:START;ps:flbk:,iptp:0,cusa:False,bamd:0,cgin:,cpap:True,lico:1,lgpr:1,limd:1,spmd:1,trmd:0,grmd:0,uamb:True,mssp:True,bkdf:False,hqlp:False,rprd:False,enco:False,rmgx:True,imps:True,rpth:0,vtps:0,hqsc:True,nrmq:1,nrsp:0,vomd:0,spxs:False,tesm:0,olmd:1,culm:0,bsrc:0,bdst:1,dpts:2,wrdp:True,dith:0,atcv:False,rfrpo:True,rfrpn:Refraction,coma:15,ufog:True,aust:True,igpj:False,qofs:0,qpre:1,rntp:1,fgom:False,fgoc:False,fgod:False,fgor:False,fgmd:0,fgcr:0.5,fgcg:0.5,fgcb:0.5,fgca:1,fgde:0.01,fgrn:0,fgrf:300,stcl:False,atwp:False,stva:128,stmr:255,stmw:255,stcp:6,stps:0,stfa:0,stfz:0,ofsf:0,ofsu:0,f2p0:False,fnsp:False,fnfb:False,fsmp:False;n:type:ShaderForge.SFN_Final,id:1225,x:32719,y:32712,varname:node_1225,prsc:2|emission-2711-OUT;n:type:ShaderForge.SFN_Dot,id:9211,x:32261,y:32784,varname:node_9211,prsc:2,dt:0|A-3081-OUT,B-4113-OUT;n:type:ShaderForge.SFN_LightVector,id:4113,x:32028,y:32934,varname:node_4113,prsc:2;n:type:ShaderForge.SFN_NormalVector,id:3081,x:32028,y:32784,prsc:2,pt:False;n:type:ShaderForge.SFN_Clamp01,id:2711,x:32460,y:32784,varname:node_2711,prsc:2|IN-9211-OUT;pass:END;sub:END;*/
 
-Shader "ZD/L1/Lambert" {
+Shader "ZD/L01/Lambert" {
     Properties {
     }
     SubShader {

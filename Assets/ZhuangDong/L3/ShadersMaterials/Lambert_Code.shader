@@ -1,4 +1,4 @@
-Shader "ZD/L3/Lambert_Code" {
+Shader "ZD/L03/Lambert_Code" {
 //shader路径名
     Properties {
     }
