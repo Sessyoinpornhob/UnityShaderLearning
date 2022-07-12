@@ -25,7 +25,7 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Floats:
     - _EnvCol: 0.31
-    - _EnvColPower: 0.664
+    - _EnvColPower: 0.735
     - _SpecularPower: 30
     - _node_7662: 1.51
     m_Colors:

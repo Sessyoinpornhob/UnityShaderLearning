@@ -26,7 +26,7 @@ Material:
     m_Floats:
     - _BlackArea: 0.411
     - _DarkArea: 0
-    - _OutLineWidth: 0.0163
+    - _OutLineWidth: 0.1
     - _Rate: 0.5
     m_Colors:
     - _DarkColor: {r: 0.07006049, g: 0.4528302, b: 0.42338637, a: 1}

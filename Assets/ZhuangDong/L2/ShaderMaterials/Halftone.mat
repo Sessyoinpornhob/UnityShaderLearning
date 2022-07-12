@@ -20,8 +20,8 @@ Material:
     serializedVersion: 3
     m_TexEnvs: []
     m_Floats:
-    - _OutLineWidth: 0.01
-    - _times: 64.2
+    - _OutLineWidth: 0.007
+    - _times: 30.5
     m_Colors:
     - _LineColor: {r: 0.1509434, g: 0.1509434, b: 0.1509434, a: 1}
   m_BuildTextureStacks: []

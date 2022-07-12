@@ -28,7 +28,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
-    - _EnvSpecInt: 0.427
-    - _FresnelPow: 1.571
+    - _EnvSpecInt: 0.611
+    - _FresnelPow: 1.823
     m_Colors: []
   m_BuildTextureStacks: []
