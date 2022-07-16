@@ -7,8 +7,8 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Matcap_c
-  m_Shader: {fileID: 4800000, guid: b73414dadfbbd174abbb944acc118ac7, type: 3}
+  m_Name: Cart_03
+  m_Shader: {fileID: 4800000, guid: 645367c3caff0fe40814f54cccb8a03f, type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
@@ -19,7 +19,7 @@ Material:
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
-    - _Matcap:
+    - _MatCap:
         m_Texture: {fileID: 2800000, guid: 5736963fc9a3b9843a6873553ee6562a, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
@@ -28,7 +28,20 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
-    - _EnvSpecInt: 0.864
-    - _FresnelPow: 0.11
-    m_Colors: []
+    - _FresnelPow: 5
+    - _MatcapPow: 0.95
+    - _MatcapRange: 14.3
+    - _OutlineWidth: 0.0423
+    - _ShadowPow: 1
+    - _SpecPow: 14.2
+    - _line01: 0.92
+    - _line12: 0.4
+    - _node_1565: 4.58
+    - _node_6329: 0.611
+    - _node_7194: 3.820313
+    m_Colors:
+    - _LineColor: {r: 0.21960786, g: 0.21960786, b: 0.21960786, a: 1}
+    - _color0: {r: 0.8490566, g: 0.8490566, b: 0.8490566, a: 1}
+    - _color1: {r: 0.4433962, g: 0.4433962, b: 0.4433962, a: 1}
+    - _color2: {r: 0.2264151, g: 0.2264151, b: 0.2264151, a: 1}
   m_BuildTextureStacks: []
