@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: 3ColAmbient
+  m_Shader: {fileID: 4800000, guid: 4c0317bb6b756da459d3d0632470578b, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _AO:
+        m_Texture: {fileID: 2800000, guid: 047f9a23aa5dd9c4f8cb39b70d9ff517, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats: []
+    m_Colors:
+    - _EnvDownCol: {r: 0.18867922, g: 0.09101828, b: 0.029106429, a: 1}
+    - _EnvSideCol: {r: 0.14323388, g: 0.3584906, b: 0.23079595, a: 1}
+    - _EnvUpCol: {r: 0.27394015, g: 0.6465247, b: 0.6698113, a: 1}
+  m_BuildTextureStacks: []

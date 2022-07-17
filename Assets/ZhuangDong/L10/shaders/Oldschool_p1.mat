@@ -19,6 +19,10 @@ Material:
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
+    - _AO:
+        m_Texture: {fileID: 2800000, guid: 047f9a23aa5dd9c4f8cb39b70d9ff517, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _Albedo:
         m_Texture: {fileID: 2800000, guid: 047f9a23aa5dd9c4f8cb39b70d9ff517, type: 3}
         m_Scale: {x: 1, y: 1}
@@ -37,9 +41,15 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Floats:
     - _AlbedoPow: 0.59
-    - _EnvSpecInt: 0.941
-    - _FresnelPow: 0.225
-    - _ShadowPow: 0.092
-    - _SpecPow: 1.45
-    m_Colors: []
+    - _EnvDiffuseInt: 0.303
+    - _EnvInt: 0.451
+    - _EnvSpecInt: 0.538
+    - _FresnelPow: 0.156
+    - _ShadowPow: 0.321
+    - _SpecPow: 0.485
+    m_Colors:
+    - _BaseColor: {r: 1, g: 0.70788676, b: 0, a: 1}
+    - _downCol: {r: 0.49056602, g: 0.22840008, b: 0.22840008, a: 1}
+    - _sideCol: {r: 0.8962264, g: 0.8962264, b: 0.8962264, a: 1}
+    - _upCol: {r: 0.8301887, g: 0.8301887, b: 0.8301887, a: 1}
   m_BuildTextureStacks: []
