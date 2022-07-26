@@ -19,6 +19,10 @@ Material:
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
+    - _BaseCol:
+        m_Texture: {fileID: 2800000, guid: da2a2d768b3b3904bad6dc54c4c5f2ac, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _MatCap:
         m_Texture: {fileID: 2800000, guid: 5736963fc9a3b9843a6873553ee6562a, type: 3}
         m_Scale: {x: 1, y: 1}
@@ -29,19 +33,19 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Floats:
     - _FresnelPow: 5
-    - _MatcapPow: 0.95
-    - _MatcapRange: 14.3
-    - _OutlineWidth: 0.0423
+    - _MatcapPow: 0.91
+    - _MatcapRange: 12.9
+    - _OutlineWidth: 0.008
     - _ShadowPow: 1
     - _SpecPow: 14.2
-    - _line01: 0.92
-    - _line12: 0.4
+    - _line01: 0.897
+    - _line12: 0.417
     - _node_1565: 4.58
     - _node_6329: 0.611
     - _node_7194: 3.820313
     m_Colors:
     - _LineColor: {r: 0.21960786, g: 0.21960786, b: 0.21960786, a: 1}
-    - _color0: {r: 0.8490566, g: 0.8490566, b: 0.8490566, a: 1}
-    - _color1: {r: 0.4433962, g: 0.4433962, b: 0.4433962, a: 1}
-    - _color2: {r: 0.2264151, g: 0.2264151, b: 0.2264151, a: 1}
+    - _color0: {r: 0.8396226, g: 0.8396226, b: 0.8396226, a: 1}
+    - _color1: {r: 0.4339623, g: 0.4339623, b: 0.4339623, a: 1}
+    - _color2: {r: 0.1981132, g: 0.1981132, b: 0.1981132, a: 1}
   m_BuildTextureStacks: []

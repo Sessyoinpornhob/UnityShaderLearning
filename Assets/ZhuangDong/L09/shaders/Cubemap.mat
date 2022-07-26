@@ -32,9 +32,9 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
-    - _CubeMapLOD: 2.04
+    - _CubeMapLOD: 1
     - _CubeMapPow: 1
     - _EnvSpecInt: 2.82
-    - _FresnelPow: 0.608
+    - _FresnelPow: 0.53
     m_Colors: []
   m_BuildTextureStacks: []

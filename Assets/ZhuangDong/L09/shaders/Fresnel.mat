@@ -20,6 +20,6 @@ Material:
     serializedVersion: 3
     m_TexEnvs: []
     m_Floats:
-    - _FresnelPow: 0.56
+    - _FresnelPow: 0.62
     m_Colors: []
   m_BuildTextureStacks: []
