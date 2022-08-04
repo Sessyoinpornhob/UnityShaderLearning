@@ -2,6 +2,7 @@ Shader "ZD/L13/AlphaBlend" {
 //shader路径名
     Properties {
         _MainTex ("RGB:颜色 A:透明度贴图", 2D) = "gray"{}
+        _Opacity ("透明度", range(0.0,1.0)) = 0.5
     }
     //材质面板参数
     SubShader {
@@ -28,7 +29,7 @@ Shader "ZD/L13/AlphaBlend" {
             
             //输入参数
             uniform sampler2D _MainTex; uniform float4 _MainTex_ST;
-            
+            uniform half _Opacity;
             //输入结构：输入到顶点着色器中的结构
             struct VertexInput {
                 float4 vertex : POSITION;     // 输入模型顶点信息
@@ -52,7 +53,9 @@ Shader "ZD/L13/AlphaBlend" {
             //输出结构 > 片元着色器/像素着色器
             float4 frag(VertexOutput i) : COLOR {
                 half4 var_MainTex = tex2D(_MainTex, i.uv);
-                return var_MainTex;
+                half3 finalRGB = var_MainTex.rgb;
+                half var_Opacity = var_MainTex.a * _Opacity;
+                return float4(finalRGB, var_Opacity);
             }
             ENDCG
         }
