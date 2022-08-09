@@ -7,7 +7,6 @@ Shader "ZD/L14&16/Fire" {
         _Noise2Params ("噪声2 X:大小 Y:流速 Z:强度", vector) = (1.0, 0.2, 0.2, 1.0)
         [HDR]_Color1 ("外焰颜色", color) = (1.0,1.0,1.0,1.0)
         [HDR]_Color2 ("内焰颜色", color) = (1.0,1.0,1.0,1.0)
-        
     }
     //材质面板参数
     SubShader {
@@ -75,7 +74,7 @@ Shader "ZD/L14&16/Fire" {
                 //噪声混合
                 half noise = var_Noise1 * _Noise1Params.z + var_Noise2 * _Noise2Params.z;
                 //扰动uv
-                float2 warpUV = i.uv0 - float2(0.0, noise) * warpMask;
+                float2 warpUV = i.uv0 - float2(0.0, noise)*warpMask;
                 //采样mask
                 half3 var_Mask = tex2D(_Mask, warpUV);
                 //计算颜色和不透明度
