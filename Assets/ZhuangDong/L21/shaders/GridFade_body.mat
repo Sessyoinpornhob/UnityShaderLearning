@@ -64,7 +64,7 @@ Material:
     - _SpecPow: 32.8
     m_Colors:
     - _EffCol: {r: 0.3350785, g: 63.999992, b: 63.999992, a: 1}
-    - _EffParams: {r: 0.08, g: 5, b: 0.51, a: 2.61}
+    - _EffParams: {r: 0.1, g: 5, b: 0.51, a: 0}
     - _Effcol: {r: 0, g: 0, b: 0, a: 0}
     - _EnvDownCol: {r: 0.5, g: 0.5, b: 0.5, a: 1}
     - _EnvSideCol: {r: 0.5, g: 0.5, b: 0.5, a: 1}

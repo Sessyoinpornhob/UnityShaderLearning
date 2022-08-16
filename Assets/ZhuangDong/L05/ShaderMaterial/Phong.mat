@@ -20,6 +20,6 @@ Material:
     serializedVersion: 3
     m_TexEnvs: []
     m_Floats:
-    - _power: 20
+    - _power: 18
     m_Colors: []
   m_BuildTextureStacks: []

@@ -111,8 +111,8 @@ Shader "ZD/L21/GridFade"
                 //smoothstep出各等级mask
                 float4 effectMask = float4(0.0, 0.0, 0.0, 0.0);
                 effectMask.x = smoothstep(0.0, 0.9, baseMask);
-                effectMask.y = smoothstep(0.2, 0.7, baseMask);
-                effectMask.z = smoothstep(0.4, 0.5, baseMask);
+                effectMask.y = smoothstep(0.2, 0.5, baseMask);
+                effectMask.z = smoothstep(0.4, 0.6, baseMask);
                 
                 //将顶点色遮罩存入effectMask.w
                 effectMask.w = mask;
@@ -202,8 +202,8 @@ Shader "ZD/L21/GridFade"
                 float baseMask = i.effectMask.w;        //将底座排除在外
 
                 //计算透明度通道
-                float midOpacity = saturate(floor(min(faceRandomMask, 0.999999) + midMask));
-                float bigOpacity = saturate(floor(min(faceRandomMask, 0.999999) + bigMask));
+                float midOpacity = saturate(floor(saturate(faceSlopeMask) + midMask));
+                float bigOpacity = saturate(floor(saturate(faceRandomMask) + bigMask));
                 float opacity = lerp(1.0, min(midOpacity, bigOpacity), baseMask);
 
                 //叠加自发光

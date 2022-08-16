@@ -25,7 +25,7 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Floats: []
     m_Colors:
-    - _EnvDownCol: {r: 0.18867922, g: 0.09101828, b: 0.029106429, a: 1}
-    - _EnvSideCol: {r: 0.14323388, g: 0.3584906, b: 0.23079595, a: 1}
-    - _EnvUpCol: {r: 0.27394015, g: 0.6465247, b: 0.6698113, a: 1}
+    - _EnvDownCol: {r: 0.23584908, g: 0.13593069, b: 0.071982905, a: 1}
+    - _EnvSideCol: {r: 0.10943248, g: 0.6320754, b: 0.32236102, a: 1}
+    - _EnvUpCol: {r: 0.22973579, g: 0.9542418, b: 1, a: 1}
   m_BuildTextureStacks: []
