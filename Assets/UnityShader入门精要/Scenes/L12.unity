@@ -136,6 +136,8 @@ GameObject:
   - component: {fileID: 994344992}
   - component: {fileID: 994344995}
   - component: {fileID: 994344996}
+  - component: {fileID: 994344997}
+  - component: {fileID: 994344998}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -231,7 +233,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 994344991}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2f065f399fca9974686ff763a035dda7, type: 3}
   m_Name: 
@@ -240,6 +242,39 @@ MonoBehaviour:
   edgesOnly: 0.255
   edgeColor: {r: 0.2735849, g: 0.080191076, b: 0, a: 1}
   backgroundColor: {r: 1, g: 1, b: 1, a: 1}
+--- !u!114 &994344997
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 994344991}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac7b77e8919acb54c90dfa966b827d46, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gaussianBlurShader: {fileID: 4800000, guid: 446f45d57b0fa894dbe8e5fdae14d820, type: 3}
+  iterations: 2
+  blurSpread: 1.63
+  downSample: 2
+--- !u!114 &994344998
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 994344991}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 32107829b9b055f46b334f1600470ac2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bloomShader: {fileID: 4800000, guid: 35b877f18025ab94dab8761dca707d92, type: 3}
+  iterations: 2
+  blurSpread: 1.3
+  downSample: 5
+  luminanceThreshold: 0
 --- !u!1 &1219088287
 GameObject:
   m_ObjectHideFlags: 0
