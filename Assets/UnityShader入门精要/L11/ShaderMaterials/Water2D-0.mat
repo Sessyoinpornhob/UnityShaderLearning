@@ -27,7 +27,7 @@ Material:
     - _Frequency: 10
     - _InvWaveLength: 12
     - _Magnitude: 0.25
-    - _Speed: 0.02
+    - _Speed: 0.01
     m_Colors:
     - _Color: {r: 0.77690566, g: 1, b: 0.9368162, a: 1}
   m_BuildTextureStacks: []

@@ -26,11 +26,11 @@ Material:
     m_Floats:
     - _BlackArea: 0.411
     - _DarkArea: 0
-    - _OutLineWidth: 0.02
+    - _OutLineWidth: 0.0259
     - _Rate: 0.5
     m_Colors:
-    - _DarkColor: {r: 0.07006049, g: 0.4528302, b: 0.42338637, a: 1}
-    - _LambertColor: {r: 0.6698113, g: 0.62803453, b: 0.11626911, a: 1}
-    - _LightColor: {r: 0.13725491, g: 0.74509805, b: 0.58254284, a: 1}
-    - _OutLineColor: {r: 0.33962262, g: 0.09248316, b: 0.049341388, a: 1}
+    - _DarkColor: {r: 0.11140187, g: 0.5283019, b: 0.4982163, a: 1}
+    - _LambertColor: {r: 0.9433962, g: 0.89364934, b: 0.3057315, a: 1}
+    - _LightColor: {r: 0.19253181, g: 0.6509434, b: 0.52968615, a: 1}
+    - _OutLineColor: {r: 0.3207547, g: 0.097533934, b: 0.05855888, a: 1}
   m_BuildTextureStacks: []
